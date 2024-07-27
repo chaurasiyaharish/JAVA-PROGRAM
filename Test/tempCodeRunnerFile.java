@@ -1,0 +1,1 @@
+ double score = hk.nextDouble();
