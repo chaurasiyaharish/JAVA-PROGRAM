@@ -35,5 +35,5 @@ class LeapYear{
         System.out.println("Invalid year");
       }
     
-      }
+    }
 }
