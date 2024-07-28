@@ -3,7 +3,7 @@
 import java.util.Scanner;
 // WAP to accept  cercomfrance of circle from the user and print the redius of circle
 
-class PreticA{
+class Cercumfrance{
       public static void main(String[] args){
       
       Scanner Scanner = new Scanner(System.in);

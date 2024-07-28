@@ -23,12 +23,12 @@ import java.util.Scanner;
 class TwoLarger{
        public static void main(String[] args){
 
-       Scanner hk = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
 
        System.out.println("Enter First number");
-       int n1 = hk.nextInt();
+       int n1 = scanner.nextInt();
        System.out.println("Enter second number");
-       int n2 = hk.nextInt();
+       int n2 = scanner.nextInt();
 
        if(n1>n2)
        {
