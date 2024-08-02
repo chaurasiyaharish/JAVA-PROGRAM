@@ -5,13 +5,13 @@
 import java.util.Scanner;
 class taskA{
      public static void main(String[] args){
-     float num,num;
+     float num1,num2;
      Scanner sc=new Scanner(System.in);
      System.out.println("Enteer first number:");
-     num = sc.nexFloat();
+     num1 = sc.nextFloat();
        System.out.println("Enteer Second number:");
-     num = sc.nexFloat();
-     System.out.println("Multiplication of two number:" +(num*num));
+     num2 = sc.nextFloat();
+     System.out.println("Multiplication of two number:" +(num1*num2));
     //   System.out.println("Division of two number:" +(num1/num2));
      }
 

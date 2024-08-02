@@ -19,20 +19,20 @@ class Test{
      //   double score = hk.nextDouble();
       double score = (mark1+mark2+mark3/3.0);
 
-       if(score => 90)
+       if(score >= 90)
        {
             System.out.println("Gred A ");
        }
-       else if(Score=>70)
+       else if(score >= 70)
        {
             System.out.println("Gred B ");
        }
-       else if(Score=>50)
+       else if(score >= 50)
        {
             System.out.println("Gred C ");
        }
        else{
-            System.out println("Gred D");
+            System.out.println("Gred D");
        }
 
       }

@@ -51,7 +51,7 @@ class DemoSwitch{
         case 12:
             System.out.println("31 days");
         default:
-            System.out.println("invalid")
+            System.out.println("invalid");
     }
      
 

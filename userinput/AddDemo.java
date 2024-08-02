@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class task{
+class AddDemo {
      public static void main(String[] args){
      int n1,n2;
      Scanner hk=new Scanner(System.in);

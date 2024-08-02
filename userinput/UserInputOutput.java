@@ -8,19 +8,22 @@ import java.util.Scanner;
 class UserInputOutput{
     public static void main(String[] args){
         //stap3
-        int number1;
-        double number2;
         //stape 4 Scanner class  object declear and initialize
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name");
         String name = scanner.next();
        //next()
-       //nextLine();
-       System.out.println("name =" + name);
+         scanner.nextLine();
+       System.out.println("Enter you age");
+       byte age = scanner.nextByte();
        
-       System.out.println("enter age" + age);
-       int age = scanner.nextInt();
+       System.out.println("enter you Mobile Number:");
+       double number = scanner.nextDouble();
    //
+       System.out.println("Your Detailes:");
+       System.out.println("Nmae: "+ name);
+       System.out.println("Age: "+age);
+       System.out.println("Mobile:"+number);
 
     }
 
