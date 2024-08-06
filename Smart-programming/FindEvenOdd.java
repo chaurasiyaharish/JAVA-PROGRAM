@@ -27,10 +27,10 @@ class FindEvenOdd{
     int number = scanner.nextInt();
 
     if(number%2 == 0){
-        System.out.println("Even numberr is: "+ number);
+        System.out.println(number + " is Even number");
     }
     else{
-        System.out.println("Odd number is: "+ number);
+        System.out.println(number+" is Odd number");
     }
     }
 }
