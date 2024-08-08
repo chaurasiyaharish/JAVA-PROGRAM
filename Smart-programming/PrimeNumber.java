@@ -9,7 +9,7 @@ public class PrimeNumber {
                 }
             }
             if (count == 2) {
-                System.out.println(i);
+                System.out.print(i+" ");
             }
         }
     }
